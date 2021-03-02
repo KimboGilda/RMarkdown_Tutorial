@@ -1,0 +1,26 @@
+---
+title: "R Markdown Workshop"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: Nikos Bakogiannis
+output: 
+  html_document:
+    theme: yeti
+    includes:
+       in_header: GA_Script.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The project *FIT with Markdown* aims at unlocking the potential of the publication language R-Markdown for data-oriented teaching and further education. Documents must be made F-I-T - flexible, interactive and sharable (teilbar) - for digital transformation, they must
+• be **flexible** in terms of output, take advantage of the full media diversity of the digital transformation, and enable a personalized and personalized learning experience;
+• provide more sophisticated insights into the database with **interactive** visualization than static PDFs,
+• be sharable (**teilbar**) among lecturers / students for collaborative teaching and further education.
+
+Using *R Markdown* allows you to embed chunks of code directly into your project and generate plots and tables directly from the underlying data, avoiding copy-paste steps. 
+This will get you into the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build upon your results down the road.
+
+**Slides for a short introduction to R Markdown's world are available here:**
+
+- [Introduction to R Markdown](slides/slides_01.html)
